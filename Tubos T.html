@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"/>
+		<title></title>
+		<link rel="stylesheet" href="tubos T.css"/>
+	</head>
+	<body>
+		<header>
+			<h1>Tubos PVC T</h1>
+
+			<nav class="navbar">
+				<ul>
+					<li><a href="index.html">Inicio</a></li><br>
+					<li><a href="llaves afines y mas.html">Anterior</a></li><br>
+					<li><a href="codos.html">Siguiente</a></li>
+				
+	
+				</ul>
+
+			</nav>
+			
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito"></p>
+								<span class="precio-producto-carrito"></span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar"></span>
+						<div id="paypal-button-container-P-4Y480621FB230452CMUQ4ILA"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AVgTolPwl6Cq_YI1GMDu5uJ9kK-FFgqB30OemL31GCvu3twJdB9CG9xAiILPdzAZF8NX3FdENWK8yyEd&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+<script>
+  paypal.Buttons({
+      style: {
+          shape: 'pill',
+          color: 'gold',
+          layout: 'vertical',
+          label: 'subscribe'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-4Y480621FB230452CMUQ4ILA'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-4Y480621FB230452CMUQ4ILA'); // Renders the PayPal button
+</script>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="imagenes/t1.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tubo T PVC 1</h2>
+					<p class="price">$12</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+
+					
+				</div>
+				
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="imagenes/t2.jpg"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tubo T PVC 1 1/4</h2>
+					<p class="price">$90</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="imagenes/t3.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>"Tubo T PVC 2 Inyectado Amanco</h2>
+					<p class="price">$30</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="imagenes/t4.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tubo PVC T 4</h2>
+					<p class="price">$70</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="imagenes/t5.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tee de Sanitaria 6 pvc
+					</h2>
+					<p class="price">$69</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+			<div class="item">
+				<figure>
+					<img
+						src="imagenes/t6.webp"
+						alt="producto"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Tubo PVC 1/2</h2>
+					<p class="price">$10</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html
